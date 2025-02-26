@@ -1,0 +1,114 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* INIZIO CSS HERO */
+.headcont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hmaintext {
+    font-weight: 900;
+}
+
+.hmaintext {
+    font-size: 48px;
+    max-width: 350px;
+}
+
+.hsubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 410px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border: none;
+    max-width: fit-content;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.imgcont {
+    margin-left: 600px;
+}
+
+.mainherocontent {
+    display: flex;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 240px 66px;
+}
+/* FINE CSS HERO (PRIMA SEZIONE DEL SITO) */
+
+/* INIZIO CSS SECONDA SEZIONE SITO */
+
+.sezione2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.sez2title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0 34px;
+    
+}
+.cardtainer{
+    display: flex;
+    justify-content: center;
+
+    gap: 64px;
+    flex-wrap: wrap;
+}
+.cardbord img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 1px;
+}
+.info{
+max-width: 160px;
+}

@@ -112,3 +112,66 @@ button {
 .info{
 max-width: 160px;
 }
+/* FINE CSS SECONDA SEZIONE SITO */ 
+
+/* INIZIO CSS TERZA SEZIONE SITO */
+
+.sezione3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quotext{
+    display: flex;
+    max-width: 600px;
+    font-size: 36px;
+    font-family: light italic;
+}
+.cit{
+    display: flex;
+    justify-self: flex-end;
+    font-family: light italic;
+}
+.quotainer{
+    padding: 80px;
+}
+/* FINE CSS TERZA SEZIONE SITO */
+
+/* INIZIO CSS QUARTA SEZIONE SIT0 */
+.sezione4{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.ctatainer{
+    display: flex;
+    padding: 30px 60px;
+    background-color: #3882f6;
+    margin: 80px;
+    border-radius: 5px;
+    gap: 80px;
+}
+.ctext{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+.ctabold{
+    font-weight: 700;
+}
+.ctatainer button{
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+
+}
+/* FINE CSS QUARTA SEZIONE SITO */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
